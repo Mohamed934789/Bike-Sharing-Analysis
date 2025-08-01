@@ -1,6 +1,6 @@
 # 🚴‍♂️ Bike Sharing Analysis
 
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
+![SQL](https://img.shields.io/badge/SQL-SQLServe-blue)
 ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 
 
