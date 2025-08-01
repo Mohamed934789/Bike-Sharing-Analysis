@@ -43,7 +43,7 @@ SELECT
 FROM cte a
 LEFT JOIN cost_table c
 ON a.yr = c.yr;
-
+```
 ## 📊 Key Insights
 Midday and early evening hours (10–15 hrs) are the most profitable.  
 Wednesday and Friday show higher sales, indicating variable profitability during the week.  
