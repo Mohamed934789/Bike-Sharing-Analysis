@@ -2,7 +2,7 @@
 
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
 ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 ## 🗂️ Project Summary
 This project performs **Exploratory Data Analysis (EDA)** on a Bike Sharing dataset using **SQL** for data preparation and **Power BI** for visualization.  
