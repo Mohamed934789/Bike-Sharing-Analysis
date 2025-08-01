@@ -49,7 +49,7 @@ Midday and early evening hours (10–15 hrs) are the most profitable.
 Wednesday and Friday show higher sales, indicating variable profitability during the week.  
 Season 3 (Summer) generated the highest revenue overall.
 
-## 📸 Sample Dashboard
+
 
 ## 🚀 Tech Stack
 - **SQL:** PostgreSQL  
