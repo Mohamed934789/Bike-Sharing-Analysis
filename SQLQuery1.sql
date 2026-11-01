@@ -1,22 +1,8 @@
-with cte as (
-select * from bike_share_yr_0
-union 
-select * from bike_share_yr_1
+-- SQL Server; rental-only query needs no missing cost table.
+;WITH rentals AS (
+    SELECT * FROM bike_share_yr_0
+    UNION ALL
+    SELECT * FROM bike_share_yr_1
 )
-select 
-dteday,
-season,
-a.yr,
-weekday,
-hr,
-rider_type,
-riders,
-price,
-COGS,
-riders*price as Revenue ,
-riders*price -COGS as Profit 
-from cte a
-left join cost_table c
-on a.yr=c.yr
-
-
+SELECT yr, season, weekday, hr, rider_type, SUM(riders) AS riders
+FROM rentals GROUP BY yr, season, weekday, hr, rider_type;
